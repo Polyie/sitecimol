@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Optima, sans-serif;
+}
+
+body {	
+background-color: #6C9DAD;
+}
+
+
+
+@media only screen and (max-width : 768px) {
+
+    #alertas{
+        float: left;
+        margin-top: 4vw;
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+    #topo{
+        text-align: center;
+        font-size: 6vw;
+        font-family: Chalkduster, fantasy;
+        color: white;
+        
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 3vw;
+        font-family: lapis;
+    }
+    
+    #cadastro{
+        float: left;
+        margin-left: 5%;
+        margin-top: 2vw;
+        width: 90%;
+    }
+    
+    .titulos{
+        float: left;
+        margin-left: 10%;
+        margin-top: 1.5vw;
+        width: 80%;
+        height: 5vw;
+        font-size: 4vw;
+    }
+    
+    .campos{
+        float: left;
+        margin-left: 12.5%;
+        margin-top: 0vw;
+        width: 73%;
+        height: 5vw;
+        font-size: 3vw;
+        padding: 0 0% 0 2%;
+        border: 1px solid #222;
+        border-radius: 10px;
+    }
+    
+    #botao{
+        float: left;
+        margin-left: 30%;
+        margin-top: 3vw;
+        width: 75%;
+        height: 4vw;
+        border-radius: 10px;
+    }
+    
+    .envio{
+        float: left;
+        margin-left: 5%;
+        width: 42.5%;
+        height: 5vw;
+        font-size: 3.5vw;
+        border: 1px solid #222;
+    }
+    
+    #registro{
+        float: left;
+        margin-left: 5%;
+        margin-top: 12vw;
+        margin-bottom: 5vw;
+        width: 90%;
+        background-color: #F8F8FF;
+    }
+    
+    #tabela{
+        border-spacing:0px ;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0.1vw solid black;
+    }
+    
+    .tabelinha {
+        float: left;
+        width: 100%;
+    }
+    
+    
+    .bloco{
+        float: left;
+        min-width: 20%;
+        height: 4.5vw;
+        box-sizing: border-box;
+        border: 1px solid #222;
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: bold;
+        padding-top: 1vw;
+    }
+    
+    }
+
+@media only screen and (min-width : 769px) {
+
+    #alertas{
+        float: left;
+        margin-top: 4vw;
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+    #topo{
+        text-align: center;
+        font-size: 6vw;
+        font-family: fantasy,Chalkduster;
+        color: #1C343B;
+    }
+    
+    h2{
+        text-align: center;
+        font-size: 3vw;
+        font-family: lapis;
+    }
+    
+    #cadastro{
+        float: left;
+        margin-left: 5%;
+        margin-top: 2vw;
+        width: 90%;
+    }
+    
+    .titulos{
+        float: left;
+        margin-left: 30%;
+        margin-top: 1.5vw;
+        width: 40%;
+        height: 4vw;
+        font-size: 3.5vw;
+    }
+    
+    .campos{
+        float: left;
+        margin-left: 30%;
+        width: 40%;
+        font-size: 2.5vw;
+        height: 4vw;
+        padding: 0 0% 0 2%;
+        border: 1px solid #222;
+        border-radius: 10px;
+
+    }
+    
+    #botao{
+        float: left;
+        margin-left: 42.5%;
+        margin-top: 3vw;
+        width: 30%;
+        height: 3.4vw;
+        border-radius: 10px;
+    }
+    
+    .envio{
+        float: left;
+        margin-left: 5%;
+        width: 42.5%;
+        height: 5vw;
+        font-size: 3.5vw;
+        border: 1px solid #222;
+        border-radius: 10px;
+    }
+    
+    #registro{
+        float: left;
+        margin-left: 5%;
+        margin-top: 12vw;
+        margin-bottom: 5vw;
+        width: 90%;
+        background-color: #F8F8FF;
+    }
+    
+    #tabela{
+        border-spacing:0px ;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0.1vw solid black;
+    }
+    
+    .tabelinha {
+        float: left;
+        width: 100%;
+    }
+    
+    
+    .bloco{
+        float: left;
+        min-width: 20%;
+        height: 4.5vw;
+        box-sizing: border-box;
+        border: 1px solid #222;
+        text-align: center;
+        font-size: 1.3vw;
+        font-weight: bold;
+        padding-top: 1vw;
+    }
+}
